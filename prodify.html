@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prodify</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <div class="welcome">
+        <h1>
+          Welcome back Mugambi!
+        </h1>
+        <div>
+          <h2>NO.1</h2>
+          <p>Productivity Hub</p>
+        </div>
+        
+        <p>
+          Ready to conquer your day? Let's turn your goals into achievements with ease!
+        </p>
+        <button>CONTINUE</button>
+      </div>
+    
+    <hr>
+    
+        
+      <div class="contents">
+
+        <div class="container">
+          <h2>To-Do List</h2>
+         <input type="text">
+        </div>
+        <div class="container">
+          <h2>Diary</h2>
+          <input type="text">
+        </div>
+        <div class="container">
+          <h2>Achievements</h2>
+          <input type="text">
+        </div>
+        <div class="container">
+          <h2>Comments</h2>
+          <input type="text">
+        </div>
+      </div>
+      
+      <!--<div class="calender">
+        <h3>Google Calender</h3>
+      
+        <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&ctz=UTC&src=MTliMWMzNTViM2Q0MGRhNzBkYjc2YjE5ZDRiMjYwNDhmZWZlZGFlMTE2ZmY0ZmNjYzg2OWYyMTBjNjIyMDdkNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4ua2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23616161&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="250" height="250" frameborder="0" scrolling="no"></iframe>
+      </div>
+    -->
+    <div class="calendar">
+      <div class="calendar-header">
+          <button id="prev">&lt;</button>
+          <span id="month-year"></span>
+          <button id="next">&gt;</button>
+      </div>
+      <div class="calendar-days">
+          <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+      </div>
+      <div class="calendar-dates" id="calendar-dates"></div>
+  </div>
+
+      <div class="clock-container">
+        <div id="clock"></div>
+      </div>
+      
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
